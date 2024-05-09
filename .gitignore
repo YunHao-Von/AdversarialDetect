@@ -1,7 +1,7 @@
-*/AdversarialImagesTrain
-*/AdversarialImagesVal
-*/Data
-*/Hamming
-*/MixTrain
-*/MixVal
-*/__pycache__
+*/AdversarialImagesTrain/
+*/AdversarialImagesVal/
+*/Data/
+*/Hamming/
+*/MixTrain/
+*/MixVal/
+*/__pycache__/
