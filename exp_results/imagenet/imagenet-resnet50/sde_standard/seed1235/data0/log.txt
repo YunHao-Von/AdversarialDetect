@@ -1,0 +1,14 @@
+ngpus: 2, adv_batch_size: 32
+starting the model and loader...
+using imagenet resnet50...
+diffusion_type: sde
+model_config: {'image_size': 256, 'num_channels': 256, 'num_res_blocks': 2, 'num_heads': 4, 'num_heads_upsample': -1, 'num_head_channels': 64, 'attention_resolutions': '32,16,8', 'channel_mult': '', 'dropout': 0.0, 'class_cond': False, 'use_checkpoint': False, 'use_scale_shift_norm': True, 'resblock_updown': True, 'use_fp16': True, 'use_new_attention_order': False, 'learn_sigma': True, 'diffusion_steps': 1000, 'noise_schedule': 'linear', 'timestep_respacing': '1000', 'use_kl': False, 'predict_xstart': False, 'rescale_timesteps': True, 'rescale_learned_sigmas': False}
+t: 1000, rand_t: False, t_delta: 15
+use_bm: False
+x_val shape: torch.Size([32, 3, 224, 224])
+x (min, max): (0.0, 1.0)
+attack_list: ['FGSM', 'FGSM_L2']
+num_steps: 5, epsilon: 0.00392
+using imagenet resnet50...
+reset the mean 0 and std 1
+you are calulating the single_vector_norm of score!

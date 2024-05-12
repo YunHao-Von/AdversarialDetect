@@ -5,6 +5,8 @@
 /MixTrain
 /MixVal
 /__pycache__
+/score_diffusion_t_imagenet_1w
+/pretrained
 */AdversarialImagesTrain
 */AdversarialImagesVal
 */Data
@@ -12,3 +14,5 @@
 */MixTrain
 */MixVal
 */__pycache__
+*/score_diffusion_t_imagenet_1w
+*/pretrained
